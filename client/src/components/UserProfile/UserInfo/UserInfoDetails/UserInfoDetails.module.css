@@ -1,0 +1,99 @@
+.user__desc{
+    grid-column: 2/3;
+    display: grid;
+    grid-template-areas: "s s s" "l a a";
+    
+}
+
+.user__status{
+    text-align: start;
+    font-size: 17px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    grid-area: s;
+    height: fit-content;
+    padding-left: 15px;
+    position: relative;
+    font-weight: 700;
+}
+
+.user__statusSpan{
+    width: 100%;
+    height: 100%;
+}
+
+.user__myStatusSpan{
+    cursor: pointer;    
+}
+
+.user__myStatusSpan::after, .user__labelDiv::after{
+    opacity: 0;
+    position: absolute;
+    content: '';
+    right: 5px;
+    height: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    background: url('../../../../assets/images/pencil.png') center center/cover no-repeat;
+    transition: all .4s;
+}
+
+.user__myStatusSpan:hover.user__statusSpan::after, .user__labelDiv:hover.user__labelDiv::after{
+    opacity: 1;
+}
+
+
+
+.user__status::before{
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 100%;
+    bottom: -10px;
+    background-color: #dee2e6;
+    cursor: default;
+}
+
+
+
+.user__status input{
+    width: 100%;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 0px;
+    line-height: 17px;
+    outline: none;
+    border: none;
+}
+
+.user__label{
+    font-size: 21px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.user__labelDiv{
+    position: relative;
+    cursor: pointer;
+}
+
+.user__label input{
+    width: 100%;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px; 
+    line-height: 17px;
+    outline: none;
+    border: none;
+}
+
+.user__labels{
+    grid-area: l;
+    justify-self: center;
+}
+
+.user__answers{
+    grid-area: a;
+    width: 100%;
+}

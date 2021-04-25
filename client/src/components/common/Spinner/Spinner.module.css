@@ -1,0 +1,15 @@
+.spinner{
+    height: fit-content;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.spinner img{
+    margin: 0 auto;
+    display: block;
+    
+}
+
+
+

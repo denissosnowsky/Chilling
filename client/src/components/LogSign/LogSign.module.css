@@ -1,0 +1,72 @@
+.logsign{
+    height: 100vh;
+    width: 100vw;
+    background: url(../../assets/images/background.jpg) center bottom -250px/cover no-repeat;
+}
+
+.spinner{
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 0px;
+}
+
+.spinner img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.toastWrapper{
+    height: fit-content;
+    width: 300px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 15px;
+}
+
+.toast{
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    border-radius: 15px;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
+
+@keyframes fadeIn {
+    from,
+    60%,
+    75%,
+    90%,
+    to {
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    0% {
+      opacity: 0;
+      transform: translate3d(0, -3000px, 0) scaleY(3);
+    }
+    60% {
+      opacity: 1;
+      transform: translate3d(0, 25px, 0) scaleY(0.9);
+    }
+    75% {
+      transform: translate3d(0, -10px, 0) scaleY(0.95);
+    }
+    90% {
+      transform: translate3d(0, 5px, 0) scaleY(0.985);
+    }
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+}
+

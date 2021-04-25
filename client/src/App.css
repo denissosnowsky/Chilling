@@ -1,0 +1,41 @@
+.app{
+    --red-color: #D14B4B;
+    --gray-color: #21333B;
+}
+.app__background{
+    background: url(./assets/images/background.jpg) center bottom -250px/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -10;
+}
+.app__wrapper{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 2fr 6.5fr;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.app__content{
+    border-radius: 10px;
+    grid-column: 2/3;
+    background-color: #fff;
+}
+
+.containerForContent{
+    padding: 15px;
+}
+
+.myBtn{
+    font-size: 21px!important;
+    padding: 0px!important;
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+}
+
+:focus{
+    outline: 0;
+    outline-offset: 0;
+}

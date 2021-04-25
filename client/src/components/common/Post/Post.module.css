@@ -1,0 +1,109 @@
+.posts__post{
+    border-radius: 10px;
+    position: relative;
+    margin-top: 40px;
+    padding: 5px;
+}
+
+
+.posts__userLogo{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    top: -30px;
+    left: 20px;
+    border: 3px solid #fff;
+    overflow: hidden;
+    display: block;
+    cursor: pointer;
+}
+
+.posts__receiverLogo{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    top: -30px;
+    right: 20px;
+    border: 3px solid #fff;
+    overflow: hidden;
+    display: block;
+    cursor: pointer;
+}
+
+.posts__receiverLogo img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.posts__delete{
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    bottom: 2px;
+    right: 10px;
+}
+
+.posts__delete i{
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.posts__like{
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    bottom: 2px;
+    left: 20px;
+}
+
+.posts__like i{
+    user-select: none;
+}
+
+
+.posts__like i{
+    padding: 0px;
+    margin: 0px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.posts__userLogo img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.posts__image{
+    max-height: 400px;
+    width: 100%;
+}
+
+.posts__image img{
+    max-height: 400px;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 10px 10px 0 0;
+}
+
+.posts__text{
+    font-size: 23px;
+    padding: 5px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    text-align: justify;
+}
+
+.posts_liked{
+    color: #dc3545;
+}
+
+.posts__spinnerImg{
+    height: 30px;
+    width: 30px;
+}
