@@ -21,7 +21,8 @@ const UserProfile = ({isFetching, user, getProfileThunk, me, myId, savePhotoThun
         getProfileThunk(id);
     }, [id, me]);
 
-    if(isFetching){
+    if(!user.order || isFetching){
+        debugger;
         return <Spinner/>
     };
 
