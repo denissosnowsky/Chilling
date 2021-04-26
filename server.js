@@ -24,16 +24,9 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
 if (process.env.NODE_ENV === 'production') {
-  app.use('/', express.static(path.join(__dirname, 'client', 'build')));
   app.use(filePathMiddleware(path.join(__dirname, 'client', 'build')));
-
-  app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
-  });
 };
-
 if (process.env.NODE_ENV === 'development') {
-  app.use('/', express.static(path.join(__dirname, 'static')));
   app.use(filePathMiddleware(path.join(__dirname, 'static')));
 }
 
@@ -45,6 +38,17 @@ app.use('/api/posts', postsRouter);
 app.use('/api/news', newsRouter);
 app.use('/api/music', musicRouter);
 app.use('/api/messages', messageRouter);
+
+if (process.env.NODE_ENV === 'production') {
+  app.use('/', express.static(path.join(__dirname, 'client', 'build')));
+  app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+  });
+};
+
+if (process.env.NODE_ENV === 'development') {
+  app.use('/', express.static(path.join(__dirname, 'static')));
+}
 
 
 async function start() {
