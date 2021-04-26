@@ -1,6 +1,6 @@
 import s from './Song.module.css';
 import spinner from '../../../assets/images/spinner.gif';
-import { url } from '../../../config';
+//import { url } from '../../../config';
 
 const Song = ({music, addMusic, deleteMusic, searchedPhrase, portion, currentPage, isFetchingAddSong}) => {
 
@@ -12,7 +12,7 @@ const Song = ({music, addMusic, deleteMusic, searchedPhrase, portion, currentPag
     return (
         <div className={s.song__wrapper}>
             <audio controls>
-                <source src={url+music.song.songSrc} type="audio/mpeg"/>
+                <source src={music.song.songSrc} type="audio/mpeg"/>
             </audio>
             <span className={s.song__name}>{fullName}</span>
             {music.isAdded
