@@ -1,5 +1,6 @@
-.initializator{
-    width: 100vw;
-    height: 100vh;
-    background: url(../../../assets/images/background.jpg) center bottom -250px/cover no-repeat;
+.initializator {
+  width: 100vw;
+  height: 100vh;
+  background: url(../../../assets/images/background.jpg) center bottom -250px / cover
+    no-repeat;
 }

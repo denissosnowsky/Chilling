@@ -1,29 +1,29 @@
-.music__li{
-    width: 400px!important;
-    cursor: pointer;
-    font-size: 20px;
-    border-radius: 5px;
+.music__li {
+  width: 400px !important;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
 }
 
-span .active{
-    background-color: #dc3545!important;
+span .active {
+  background-color: #dc3545 !important;
 }
 
-.music__nav{
-    flex-wrap: wrap;
-    justify-content:space-evenly;
-    width: fit-content;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+.music__nav {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: fit-content;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.music__inner{
-    padding: 20px;
-    font-size: 22px;
+.music__inner {
+  padding: 20px;
+  font-size: 22px;
 }
 
-.active{
-    background-color: #dc3545!important;
-    color: #fff!important;
+.active {
+  background-color: #dc3545 !important;
+  color: #fff !important;
 }

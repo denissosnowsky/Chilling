@@ -1,24 +1,23 @@
-.navbar{
-    border-radius: 10px;
-    height: fit-content;
-    padding-left: 50px;
-    grid-column: 1/2;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.navbar {
+  border-radius: 10px;
+  height: fit-content;
+  padding-left: 50px;
+  grid-column: 1/2;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.item{
-    margin-top: 15px;
-    margin-bottom: 15px;
-    
+.item {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
-.item a{
-    text-decoration: none;
-    font-size: 22px;
-    color: var(--gray-color);
+.item a {
+  text-decoration: none;
+  font-size: 22px;
+  color: var(--gray-color);
 }
 
-.item a:hover{
-    color: var(--red-color);
+.item a:hover {
+  color: var(--red-color);
 }

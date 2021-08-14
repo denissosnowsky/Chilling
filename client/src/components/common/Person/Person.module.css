@@ -1,57 +1,56 @@
-.person{
-    margin-top: 40px;
-    border-radius: 10px;
-    display: grid;
-    grid-template-columns: 3fr 8fr;
-    overflow: hidden;
-    height: fit-content;
-    height: 180px;
+.person {
+  margin-top: 40px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 3fr 8fr;
+  overflow: hidden;
+  height: fit-content;
+  height: 180px;
 }
 
-.person__logo{
-    width: fit-content;
-    justify-self: center;
-    align-self: center;
-    border-radius: 50%;
-    overflow: hidden;
+.person__logo {
+  width: fit-content;
+  justify-self: center;
+  align-self: center;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
-.person__logo img{
-    height: 160px;
-    width: 160px;
-    object-fit: fill;
+.person__logo img {
+  height: 160px;
+  width: 160px;
+  object-fit: fill;
 }
 
-.person__desc{
-    position: relative;
-    padding: 20px;
+.person__desc {
+  position: relative;
+  padding: 20px;
 }
 
-.person__name{
-    font-weight: 700;
-    font-size: 30px;
-    text-decoration: none;
-    color: #212529;
+.person__name {
+  font-weight: 700;
+  font-size: 30px;
+  text-decoration: none;
+  color: #212529;
 }
 
-.person__city{
-    margin-top: 5px;
-    font-size: 22px;
+.person__city {
+  margin-top: 5px;
+  font-size: 22px;
 }
 
-
-.person__desc button{
-    margin-bottom: 10px;
-    margin-top: 10px;
+.person__desc button {
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
-.person__myPage{
-    margin-bottom: 10px;
-    margin-top: 10px;
-    cursor: text!important;
+.person__myPage {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  cursor: text !important;
 }
 
-.person__spinnerBtn{
-    height: 30px;
-    width: 30px;
+.person__spinnerBtn {
+  height: 30px;
+  width: 30px;
 }

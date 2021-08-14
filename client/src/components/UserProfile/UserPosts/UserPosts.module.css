@@ -1,112 +1,111 @@
-.posts{
-    height: 100%;
-    width: 100%;
-    margin-top: 100px;
+.posts {
+  height: 100%;
+  width: 100%;
+  margin-top: 100px;
 }
 
-.posts__header{
-    font-size: 40px;
-    font-weight: 400;
-    padding-left: 50px;
+.posts__header {
+  font-size: 40px;
+  font-weight: 400;
+  padding-left: 50px;
 }
 
-.posts__wrapper{
-    height: fit-content;
-    width: 100%;
-    position: relative;
+.posts__wrapper {
+  height: fit-content;
+  width: 100%;
+  position: relative;
 }
 
-.posts__wrapper::before{
-    position: absolute;
-    content: '';
-    height: 1px;
-    width: 100%;
-    bottom: 0px;
-    background-color: #dee2e6;
+.posts__wrapper::before {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 100%;
+  bottom: 0px;
+  background-color: #dee2e6;
 }
 
-.post__textarea{
-    resize: none;
-    height: 100px;
-    font-size: 20px;
-    width: 100%;
-    border-radius: 10px;
-    margin-top: 10px;
-    padding: 20px;
+.post__textarea {
+  resize: none;
+  height: 100px;
+  font-size: 20px;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 20px;
 }
 
-.post__postBtn{
-    height: 37px!important;
-    line-height: 37px!important;
-    margin-right: 0px!important;
-    padding-left: 27px!important;
-    font-size: 16px!important;
+.post__postBtn {
+  height: 37px !important;
+  line-height: 37px !important;
+  margin-right: 0px !important;
+  padding-left: 27px !important;
+  font-size: 16px !important;
 }
 
-input#file-upload-button{
-    background-color: #000;
-    display: none;
+input#file-upload-button {
+  background-color: #000;
+  display: none;
 }
 
-.posts__file{
-    display: inline-block;
-    width: fit-content;
-    height: 100%;
-    position: relative;
-    margin-left: 10px;
-    padding-right: 5px;
+.posts__file {
+  display: inline-block;
+  width: fit-content;
+  height: 100%;
+  position: relative;
+  margin-left: 10px;
+  padding-right: 5px;
 }
 
-.posts__textareaWrap button{
-    height: 100%;
-    line-height: 37px;
-    margin: 0px;
-    width: 135px;
-    display: inline-block;
-
+.posts__textareaWrap button {
+  height: 100%;
+  line-height: 37px;
+  margin: 0px;
+  width: 135px;
+  display: inline-block;
 }
 
-.posts__file label{
-    z-index: 5;
-    background-color: #fff;
-    height: 100%;
-    width: 135px;
-    cursor: pointer;
-    font-size: 21px;
-    border-radius: 5px;
-    line-height: 37px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
+.posts__file label {
+  z-index: 5;
+  background-color: #fff;
+  height: 100%;
+  width: 135px;
+  cursor: pointer;
+  font-size: 21px;
+  border-radius: 5px;
+  line-height: 37px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
 
-.posts__textareaWrap{
-    margin-bottom: 70px;
+.posts__textareaWrap {
+  margin-bottom: 70px;
 }
 
-.posts__grid{
-    display: grid;
-    grid-template-columns: 135px 200px;
-    height: 37px;
+.posts__grid {
+  display: grid;
+  grid-template-columns: 135px 200px;
+  height: 37px;
 }
 
-.noPosts{
-    text-align: center;
-    font-size: 25px;
-    font-weight: 700;
-    margin-bottom: 10px;
+.noPosts {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
-.posts__loadMore{
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    margin: 10px;
-    margin-top: 20px;
+.posts__loadMore {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 10px;
+  margin-top: 20px;
 }
 
-.post__spinnerBtn{
-    object-fit: contain;
-    height: 35px;
-    width: 35px;
+.post__spinnerBtn {
+  object-fit: contain;
+  height: 35px;
+  width: 35px;
 }
