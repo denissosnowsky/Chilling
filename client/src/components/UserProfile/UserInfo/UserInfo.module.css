@@ -1,115 +1,113 @@
-.user{
-    height: fit-content;
-    position: relative;
+.user {
+  height: fit-content;
+  position: relative;
 }
 
-.user__wallpaper{
-    height: 180px;
-    width: 100%;
-    border-radius: 10px 10px 0 0;
-    overflow: hidden;
-    position: relative;
-    background-color:rgb(40, 210, 210);
+.user__wallpaper {
+  height: 180px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  position: relative;
+  background-color: rgb(40, 210, 210);
 }
 
-.user__img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-
+.user__img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
-.user__userPhoto{
-    height: 170px;
-    width: 170px;
-    border-radius: 50%;
-    position: absolute;
-    border: solid 3px #fff;
-    top: 100px;
-    left: 50px;
-    overflow: hidden;
-    background-color: rgb(40, 210, 210)
+.user__userPhoto {
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  position: absolute;
+  border: solid 3px #fff;
+  top: 100px;
+  left: 50px;
+  overflow: hidden;
+  background-color: rgb(40, 210, 210);
 }
 
-.user__userPhoto img{
-    height: 100%;
-    width: 100%;
-    object-fit: fill;
+.user__userPhoto img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
 }
 
-.user__userDetails{
-    height: fit-content;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+.user__userDetails {
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
-.user__name{
-    grid-column: 1/2;
-    font-size: 40px;
-    text-align: center;
-    height: fit-content;
-    width: 270px;
-    border-radius: 0 0 10px 10px;
+.user__name {
+  grid-column: 1/2;
+  font-size: 40px;
+  text-align: center;
+  height: fit-content;
+  width: 270px;
+  border-radius: 0 0 10px 10px;
 }
 
-.user__firstName{
-    padding-top: 100px;
-    word-wrap: break-word;
+.user__firstName {
+  padding-top: 100px;
+  word-wrap: break-word;
 }
 
-.user__secondName{
-    word-wrap: break-word;
+.user__secondName {
+  word-wrap: break-word;
 }
 
-.user__inputSmall, .user__inputBig{
-    width: 0px;
-    height: 0px;
-    position: absolute;
+.user__inputSmall,
+.user__inputBig {
+  width: 0px;
+  height: 0px;
+  position: absolute;
 }
 
-.user__labelSmall{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-    cursor: pointer;
-    top: 0px;
-    left: 0px;
-    color: rgba(256, 256, 256, 0);
-    text-align: center;
-    line-height: 170px;
-    font-size: 20px;
-    transition: all .2s;
+.user__labelSmall {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+  top: 0px;
+  left: 0px;
+  color: rgba(256, 256, 256, 0);
+  text-align: center;
+  line-height: 170px;
+  font-size: 20px;
+  transition: all 0.2s;
 }
 
-.user__labelSmall:hover{
-    background-color: rgba(0, 0, 0, .4);
-    color: rgba(256, 256, 256, 1);
+.user__labelSmall:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: rgba(256, 256, 256, 1);
 }
 
-
-
-.user__labelBig{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    cursor: pointer;
-    top: 0px;
-    left: 0px;
-    color: rgba(256, 256, 256, 0);
-    text-align: center;
-    line-height: 180px;
-    font-size: 20px;
-    transition: all .2s;
+.user__labelBig {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  top: 0px;
+  left: 0px;
+  color: rgba(256, 256, 256, 0);
+  text-align: center;
+  line-height: 180px;
+  font-size: 20px;
+  transition: all 0.2s;
 }
 
-.user__labelBig:hover{
-    background-color: rgba(0, 0, 0, .4);
-    color: rgba(256, 256, 256, 1);
+.user__labelBig:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: rgba(256, 256, 256, 1);
 }
 
-.user__lSpinner{
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+.user__lSpinner {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }

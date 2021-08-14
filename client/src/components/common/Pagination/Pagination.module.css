@@ -1,22 +1,21 @@
-.pagination{
-    margin-top: 20px;
+.pagination {
+  margin-top: 20px;
 }
 
-.pageItem{
-    cursor: pointer;
+.pageItem {
+  cursor: pointer;
 }
 
-.pageItem span{
-    color: #000!important;
-    
+.pageItem span {
+  color: #000 !important;
 }
 
-.active span{
-    background-color: #dc3545!important;
-    color: #fff!important;
-    cursor: default;
+.active span {
+  background-color: #dc3545 !important;
+  color: #fff !important;
+  cursor: default;
 }
 
-.link{
-    text-decoration: none;
+.link {
+  text-decoration: none;
 }

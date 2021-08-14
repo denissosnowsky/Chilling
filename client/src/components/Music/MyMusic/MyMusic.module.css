@@ -1,28 +1,28 @@
-.music__songWrapper{
-    margin-top: 40px;
+.music__songWrapper {
+  margin-top: 40px;
 }
 
-.noMusic{
-    text-align: center;
-    font-size: 25px;
-    font-weight: 700;
-    margin-bottom: 10px;
+.noMusic {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
-.spinnerWrapper{
-    height: 300px;
+.spinnerWrapper {
+  height: 300px;
 }
 
-.music__loadMore{
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    margin: 10px;
-    margin-top: 20px;
+.music__loadMore {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 10px;
+  margin-top: 20px;
 }
 
-.music__spinnerBtn{
-    object-fit: contain;
-    height: 35px;
-    width: 35px;
+.music__spinnerBtn {
+  object-fit: contain;
+  height: 35px;
+  width: 35px;
 }

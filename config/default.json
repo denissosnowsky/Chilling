@@ -1,6 +1,5 @@
 {
-    "port": "80",
-    "jwtSecret": "denissosnowsky",
-    "mongoUri": "mongodb+srv://denissosnowsky:metallicatogether@cluster0.y33rz.mongodb.net/Chilling?retryWrites=true&w=majority"
+  "port": "5000",
+  "jwtSecret": "denissosnowsky",
+  "mongoUri": "mongodb+srv://denissosnowsky:metallicatogether@cluster0.y33rz.mongodb.net/Chilling?retryWrites=true&w=majority"
 }
- 

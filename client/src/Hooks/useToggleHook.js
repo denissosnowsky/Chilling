@@ -1,14 +1,16 @@
-import {useState} from 'react';
+import { useState } from "react";
 
-export const useToggle = (initialState, func='') => {
-    let [state, setState] = useState(initialState);
+export const useToggle = (initialState, func = "") => {
+  let [state, setState] = useState(initialState);
 
-    let setValue = (e) => {
-        if(state){
-            {func && func(e.currentTarget.value)};
-        }
-        setState(!state);
+  let setValue = (e) => {
+    if (state) {
+      {
+        func && func(e.currentTarget.value);
+      }
     }
+    setState(!state);
+  };
 
-    return [state, setValue]
+  return [state, setValue];
 };

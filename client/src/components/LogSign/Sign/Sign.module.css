@@ -1,31 +1,29 @@
-.sign__form{
-    width: 400px;
-    height: fit-content;
-    margin: 0 auto;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+.sign__form {
+  width: 400px;
+  height: fit-content;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.input{
-    margin-bottom: 0px;
-    margin-top: 10px;
+.input {
+  margin-bottom: 0px;
+  margin-top: 10px;
 }
 
-.btn{
-    position: relative;
-    margin-top: 15px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 150px;
+.btn {
+  position: relative;
+  margin-top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
 }
 
-.submit{
-    margin-top: 10px;
+.submit {
+  margin-top: 10px;
 }
 
-.error{
-    color: red;
+.error {
+  color: red;
 }
-
-

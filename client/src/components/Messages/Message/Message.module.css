@@ -1,44 +1,43 @@
-.message{
-    margin-top: 20px;
-    height: 100px;
-    border-radius: 10px;
-    display: grid;
-    grid-template-columns: 2fr 8fr;
-
+.message {
+  margin-top: 20px;
+  height: 100px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 2fr 8fr;
 }
 
-.message__image{
-    justify-self: center;
-    align-self: center;
-    border-radius: 50%;
-    height: 80px;
-    width: 80px;
-    overflow: hidden;
+.message__image {
+  justify-self: center;
+  align-self: center;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  overflow: hidden;
 }
 
-.message__image img{
-    height: 100%;
-    width: 100%;
-    object-fit: fill;
+.message__image img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
 }
 
-.message__desc{
-    display: grid;
-    grid-template-rows: 1fr 2fr;
-    height: 100px;
-    padding: 5px;
+.message__desc {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  height: 100px;
+  padding: 5px;
 }
 
-.message__name{
-    font-size: 20px;
-    font-weight: 700;
-    text-decoration: none;
-    color: #000;
+.message__name {
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
 }
 
-.message__text{
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 17px;
-    color: #000;
+.message__text {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 17px;
+  color: #000;
 }
